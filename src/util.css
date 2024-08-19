@@ -1,0 +1,100 @@
+.container {
+    margin: 2em 1em;
+    padding: 1em 1.5em;
+
+    align-items: center;
+    border: 4px solid var(--clr-rose);
+    border-radius: 0.5em;
+    box-shadow: 
+        0 0 1em var(--clr-rose),
+        inset 0 0 0.7em var(--clr-rose);
+}
+
+.wrapper-content {
+    height: 100px;
+    text-align: end;
+    margin-top: 1em;
+    margin-bottom: 2em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    padding-right: 2em;
+    padding-left: 0em;
+    border: 4px solid var(--clr-rose);
+    border-radius: 0.5em;
+    box-shadow: 
+        0 0 0.5em var(--clr-rose),
+        inset 0 0 0.3em var(--clr-rose);
+    text-shadow: 
+        0 0 0.5em var(--clr-rose);
+    overflow: hidden;
+}
+
+.wrapper-operator {
+    height: 100px;
+    margin-bottom: 1em;
+    padding: 0.2em 0.3em;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    place-items: center;
+    border: 4px solid var(--clr-rose);
+    border-radius: 0.5em;
+    box-shadow: 
+        0 0 0.3em var(--clr-rose),
+        inset 0 0 0.3em var(--clr-rose);
+}
+
+.wrapper-operator button {
+    margin: 0.6em !important;
+    border: 4px solid var(--clr-rose);
+    border-radius: 0.5em;
+    box-shadow: 
+        0 0 0.3em var(--clr-rose),
+        inset 0 0 0.3em var(--clr-rose);
+}
+
+.wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    margin-bottom: 1em;
+
+    border: 4px solid var(--clr-rose);
+    border-radius: 0.5em;
+    box-shadow: 
+        0 0 0.3em var(--clr-rose),
+        inset 0 0 0.3em var(--clr-rose);
+}
+
+.wrapper-number {
+    /* width: 100%;
+    height: 450px; */
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 0.7em;
+    place-items: center;
+    /* border */
+    /* border: 4px solid var(--clr-rose); */
+    /* border-radius: 0.5em;
+    box-shadow: 
+        0 0 0.3em var(--clr-rose),
+        inset 0 0 0.3em var(--clr-rose); */
+}
+
+.btn {
+    width: 95%; /* Make buttons fill the grid cell */
+    height: 74%; /* Make buttons fill the grid cell */
+    margin: 0.5em;
+    font-size: 1.5em;
+    font-weight: bold;
+
+    background-color: var(--clr-black);
+    border: 4px solid var(--clr-rose);
+    border-radius: 0.3em;
+    box-shadow: 
+        0 0 0.3em var(--clr-rose),
+        inset 0 0 0.3em var(--clr-rose);
+}
