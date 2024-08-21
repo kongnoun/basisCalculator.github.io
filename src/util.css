@@ -1,13 +1,15 @@
 .container {
-    margin: 2em 1em;
+    margin: 1em 1em;
     padding: 1em 1.5em;
 
     align-items: center;
-    border: 4px solid var(--clr-rose);
+
+    background-color: var(--clr-gray);
+    border: 4px solid var(--clr-gray);
     border-radius: 0.5em;
     box-shadow: 
-        0 0 1em var(--clr-rose),
-        inset 0 0 0.7em var(--clr-rose);
+        0 0 1em var(--clr-gray),
+        inset 0 0 0.7em var(--clr-gray);
 }
 
 .wrapper-content {
@@ -19,13 +21,13 @@
     padding-bottom: 2em;
     padding-right: 2em;
     padding-left: 0em;
-    border: 4px solid var(--clr-rose);
+    border: 4px solid var(--clr-lightblack);
     border-radius: 0.5em;
     box-shadow: 
-        0 0 0.5em var(--clr-rose),
-        inset 0 0 0.3em var(--clr-rose);
+        0 0 0.5em var(--clr-lightblack),
+        inset 0 0 0.3em var(--clr-lightblack);
     text-shadow: 
-        0 0 0.5em var(--clr-rose);
+        0 0 0.5em var(--clr-lightblack);
     overflow: hidden;
 }
 
@@ -40,18 +42,18 @@
     border: 4px solid var(--clr-rose);
     border-radius: 0.5em;
     box-shadow: 
-        0 0 0.3em var(--clr-rose),
-        inset 0 0 0.3em var(--clr-rose);
+        0 0 0.5em var(--clr-lightblack),
+        inset 0 0 0.3em var(--clr-lightblack);
 }
 
-.wrapper-operator button {
+/* .wrapper-operator button {
     margin: 0.6em !important;
     border: 4px solid var(--clr-rose);
     border-radius: 0.5em;
     box-shadow: 
         0 0 0.3em var(--clr-rose),
         inset 0 0 0.3em var(--clr-rose);
-}
+} */
 
 .wrapper {
     width: 100%;
@@ -62,11 +64,11 @@
     padding: 1em;
     margin-bottom: 1em;
 
-    border: 4px solid var(--clr-rose);
+    border: 4px solid var(--clr-lightblack);
     border-radius: 0.5em;
     box-shadow: 
-        0 0 0.3em var(--clr-rose),
-        inset 0 0 0.3em var(--clr-rose);
+        0 0 0.5em var(--clr-lightblck),
+        inset 0 0 0.5em var(--clr-lightblack);
 }
 
 .wrapper-number {
@@ -76,25 +78,101 @@
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 0.7em;
     place-items: center;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
     /* border */
     /* border: 4px solid var(--clr-rose); */
     /* border-radius: 0.5em;
     box-shadow: 
         0 0 0.3em var(--clr-rose),
         inset 0 0 0.3em var(--clr-rose); */
+    box-shadow: 
+        0 0 0.5em var(--clr-lightblck),
+        inset 0 0 0.5em var(--clr-lightblack);
+
+}
+
+.wrapper-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    max-height: 70px;
+    width: 90px;
+    border-radius: 0.3em;
+    border: 4px solid var(--clr-lightblack);
+}
+
+.wrapper-image img {
+    border-radius: 0.4em;
+    margin: 4px;
+    border: 4px solid var(--clr-lightblack);
+    box-shadow: 
+    0 0 0.4em var(--clr-lightblack),
+    inset 0 0 0.3em var(--clr-lightblack);
 }
 
 .btn {
     width: 95%; /* Make buttons fill the grid cell */
-    height: 74%; /* Make buttons fill the grid cell */
+    height: 75%; /* Make buttons fill the grid cell */
+    margin: 0.5em;
+    padding: 0.8em 0.8em;
+    font-size: 1.4em;
+    font-weight: bold;
+
+    background-color: var(--clr-lightblack);
+    border: 4px solid var(--clr-lightblack);
+    border-radius: 50%;
+    box-shadow: 
+        0 0 0.4em var(--clr-lightblack),
+        inset 0 0 0.3em var(--clr-lightblack);
+    transition: 0.4s ease;
+}
+
+.btn:hover {
+    transform: translateY(-5px) scale(1.03);
+    border-radius: 50%;
+    box-shadow: 
+        0 0 0.7em var(--clr-lightblck),
+        inset 0 0 0.7em var(--clr-lightblack);
+}
+
+.btn1 {
+    width: 95%; /* Make buttons fill the grid cell */
+    height: 75%; /* Make buttons fill the grid cell */
     margin: 0.5em;
     font-size: 1.5em;
     font-weight: bold;
 
-    background-color: var(--clr-black);
+    
     border: 4px solid var(--clr-rose);
     border-radius: 0.3em;
     box-shadow: 
         0 0 0.3em var(--clr-rose),
         inset 0 0 0.3em var(--clr-rose);
+}
+
+.btn2 {
+    width: 95%; /* Make buttons fill the grid cell */
+    height: 75%; /* Make buttons fill the grid cell */
+    margin: 0.5em;
+    padding: 0.8em 0.8em;
+    font-size: 1.4em;
+    font-weight: bold;
+
+    background-color: var(--clr-yellow);
+    border: 4px solid var(--clr-yellow);
+    border-radius: 50%;
+    box-shadow: 
+        0 0 0.4em var(--clr-yellow),
+        inset 0 0 0.3em var(--clr-yellow);
+    transition: 0.4s ease;
+}
+
+.btn2:hover {
+    transform: translateY(-5px) scale(1.03);
+    border-radius: 50%;
+    box-shadow: 
+        0 0 0.7em var(--clr-yellow),
+        inset 0 0 0.5em var(--clr-yellow);
 }

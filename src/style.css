@@ -5,7 +5,10 @@
     --clr-mainbg: hsl(0, 0%, 100%);
     --clr-hovereffect: hsl(200, 100%, 99%);
     --clr-black: hsl(0, 0%, 0%);
+    --clr-lightblack: hsl(0, 3%, 17%);
     --clr-rose: hsl(342, 91%, 50%);
+    --clr-yellow: hsl(27, 100%, 50%);
+    --clr-gray: hsl(0, 2%, 38%);
 
     --size-S: 1em;
     --size-M: 1.2em;
