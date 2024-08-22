@@ -61,7 +61,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 1em;
+    padding: 0.5em;
     margin-bottom: 1em;
 
     border: 4px solid var(--clr-lightblack);
@@ -78,8 +78,8 @@
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 0.7em;
     place-items: center;
-    padding-left: 0.5em;
-    padding-right: 0.5em;
+    padding-left: 0.2em;
+    padding-right: 0.2em;
     /* border */
     /* border: 4px solid var(--clr-rose); */
     /* border-radius: 0.5em;
@@ -116,7 +116,7 @@
     width: 95%; /* Make buttons fill the grid cell */
     height: 75%; /* Make buttons fill the grid cell */
     margin: 0.5em;
-    padding: 0.8em 0.8em;
+    padding: 0.5em 0.5em;
     font-size: 1.4em;
     font-weight: bold;
 
@@ -155,8 +155,8 @@
 .btn2 {
     width: 95%; /* Make buttons fill the grid cell */
     height: 75%; /* Make buttons fill the grid cell */
-    margin: 0.5em;
-    padding: 0.8em 0.8em;
+    margin: 0.2em;
+    padding: 0.5em 0.5em;
     font-size: 1.4em;
     font-weight: bold;
 
