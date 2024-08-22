@@ -76,7 +76,7 @@
     height: 400px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-gap: 0.35em;
+    grid-gap: 0.5em;
     place-items: center;
     /* border */
 
